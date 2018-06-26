@@ -6,7 +6,7 @@ let url = ''
 
 function searchRepositories(searchTerms) {
   $('#searchTerms').val()
-  $.get ({
+  $.get ('#searchTerms') ({
     url: 'https://developer.github.com/v3/',
     dataType: "json",
     data: { 
