@@ -7,7 +7,7 @@ let url = ''
 function searchRepositories(searchTerms) {
     $.ajax({
     url: 'https://api.giphy.com/v1/gifs/search',
-    dataType: "json", // informs $.ajax what the type of data we are expecting back will be
+    dataType: "json",
     data: { 
       api_key: 'CqNVJSuyFVcqviUl6VHCtqea80w0ZCXX',
       q: searchTerms, 
