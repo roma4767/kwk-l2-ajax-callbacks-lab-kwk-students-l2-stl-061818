@@ -5,11 +5,11 @@ let seachTerms = ''
 let url = ''
 
 function searchRepositories(searchTerms) {
-    $.ajax({
+    $.get('searchTerms.click')
     url: 'https://developer.github.com/v3/',
     dataType: "json",
     data: { 
-      api_key: 'CqNVJSuyFVcqviUl6VHCtqea80w0ZCXX',
+      respository_name: 'Name',
       q: searchTerms, 
       limit: 3, 
       rating: 'PG-13' 
