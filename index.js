@@ -12,3 +12,5 @@ function searchRepositories(searchTerms) {
     }
     
 }
+
+let renderSearchResults = (data) => dta.items.map(results => )
