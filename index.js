@@ -12,8 +12,6 @@ function searchRepositories(searchTerms) {
     data: { 
       respository_name: 'Name',
       q: searchTerms, 
-      limit: 3, 
-      rating: 'PG-13' 
     },
     success: resp => {
         url = resp.data['0'].embed_url
