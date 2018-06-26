@@ -5,8 +5,8 @@ let seachTerms = ''
 let url = ''
 
 function searchRepositories(searchTerms) {
-  $.get('#searchTerms.click')
-  $.ajax ({
+  $('#searchTerms').val()
+  $.get ({
     url: 'https://developer.github.com/v3/',
     dataType: "json",
     data: { 
