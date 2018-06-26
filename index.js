@@ -6,7 +6,7 @@ let url = ''
 
 function searchRepositories(searchTerms) {
     $.ajax({
-    url: 'https://api.giphy.com/v1/gifs/search',
+    url: 'https://developer.github.com/v3/',
     dataType: "json",
     data: { 
       api_key: 'CqNVJSuyFVcqviUl6VHCtqea80w0ZCXX',
