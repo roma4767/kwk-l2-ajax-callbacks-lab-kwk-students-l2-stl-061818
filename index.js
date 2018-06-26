@@ -21,3 +21,8 @@ function findGIFS(searchTerms) {
   })
 }
 
+$('#submitButton').click(function() {
+    input = $('#searchText').val();
+    console.log(input)
+    findGIFS(input)
+})
