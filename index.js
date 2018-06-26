@@ -6,7 +6,7 @@ let url = ''
 
 function searchRepositories(searchTerms) {
   const searchTerms = $('#searchTerms').val()
-  $.get ('https://api.github.com/search/repositories?q=${#searchTerms} ; , data => {
+  $.get (`https://api.github.com/search/repositories?q=${#searchTerms}` , data => {
       $('#results').html();
     })
     
@@ -14,4 +14,4 @@ function searchRepositories(searchTerms) {
 
 let renderSearchResults = (data) => dta.items.map(results => renderSearchResults(result))
 
-let renderSearchResults = (result) =>
+let renderSearchResults = (result) => 
